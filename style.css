@@ -28,7 +28,7 @@ body {
 }
 .profile h2 {
     margin: 9px 0;
-    color: #000000;
+    color: #FFF;
 }
 .links a {
     display: block;
@@ -43,10 +43,10 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .links a:hover {
-    background: #FFF;
+    background: #00008B;
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 p{
-    color: #000000;
+    color: #FFF;
 }
