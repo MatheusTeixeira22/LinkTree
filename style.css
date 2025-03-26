@@ -12,10 +12,11 @@
     --grey: #333333;
     --dark-blue: #00008B;
     --white: #fff;
+    --black: #000;
 }
 
 body {
-    background-color: var(--dark-grey);
+    background-color: var(--black);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -23,7 +24,7 @@ body {
 }
 
 div{
-    background-color: var(--grey);
+    background-color: var(--dark-grey);
     color: var(--white);
     width: 384px;
     padding: 40px;
@@ -57,5 +58,23 @@ p{
 
 ul, li{
     list-style: none;
+}
+
+a {
+    display: block;
+    background-color: var(--grey);
+    margin-bottom: 16px;
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a:hover {
+    background-color: var(--dark-blue);
+    color: var(--dark-grey);
+    transition: .4s;
 }
     
